@@ -1,0 +1,5 @@
+sql:
+  hostname: "localhost"
+  user: "root"
+  password: ""
+  database: "gameapi-db"
