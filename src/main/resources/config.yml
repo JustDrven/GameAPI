@@ -1,0 +1,5 @@
+game:
+  status:
+    waiting: "&aWaiting.."
+    ingame: "&cInGame"
+    restarting: "&6Restarting.."
