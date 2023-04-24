@@ -1,0 +1,4 @@
+name: GameAPI
+version: '${version}'
+main: cz.drven.gameapi.Main
+authors: [ Drven ]
