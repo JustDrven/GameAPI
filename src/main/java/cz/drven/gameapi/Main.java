@@ -4,10 +4,9 @@ import cz.drven.gameapi.listeners.PlayerListener;
 import cz.drven.gameapi.listeners.ServerListener;
 import cz.drven.gameapi.object.Colors;
 import cz.drven.gameapi.object.Logger;
+
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
-
-import java.io.File;
 
 public final class Main extends JavaPlugin {
 
