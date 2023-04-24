@@ -6,18 +6,27 @@ import cz.drven.gameapi.listeners.ServerListener;
 import cz.drven.gameapi.object.Colors;
 import cz.drven.gameapi.object.Logger;
 
-import javafx.util.Builder;
+import cz.drven.gameapi.utils.ConfigManager;
+import org.bukkit.configuration.Configuration;
+import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
+
+import java.io.File;
 
 public final class Main extends JavaPlugin {
 
     public static final String PREFIX = Colors.format("&8[&cServer&8] &r");
+    private static ConfigManager config;
 
     @Override
     public void onEnable() {
         try {
             saveDefaultConfig();
+
+            config = new ConfigManager(this, "mysql.yml");
+
+            config.getConfig().save("mysql.yml");
 
             Logger.log(Logger.LogType.INFO, "&aConfig was been created!");
 
