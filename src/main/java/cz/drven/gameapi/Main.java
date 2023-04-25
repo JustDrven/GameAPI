@@ -1,18 +1,13 @@
 package cz.drven.gameapi;
 
-import cz.drven.gameapi.game.map.MapManager;
 import cz.drven.gameapi.listeners.PlayerListener;
 import cz.drven.gameapi.listeners.ServerListener;
-import cz.drven.gameapi.object.Colors;
-import cz.drven.gameapi.object.Logger;
+import cz.drven.gameapi.objects.Colors;
+import cz.drven.gameapi.objects.Logger;
 
 import cz.drven.gameapi.utils.ConfigManager;
-import org.bukkit.configuration.Configuration;
-import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
-
-import java.io.File;
 
 public final class Main extends JavaPlugin {
 

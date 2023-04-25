@@ -2,7 +2,7 @@ package cz.drven.gameapi.listeners;
 
 import cz.drven.gameapi.Main;
 import cz.drven.gameapi.game.GameState;
-import cz.drven.gameapi.object.Colors;
+import cz.drven.gameapi.objects.Colors;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.server.ServerListPingEvent;

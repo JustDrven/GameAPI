@@ -1,4 +1,4 @@
-package cz.drven.gameapi.object;
+package cz.drven.gameapi.objects;
 
 import org.bukkit.Bukkit;
 
