@@ -2,6 +2,19 @@
 
 <hr>
 
+### This API contains:
+- Map system
+- listeners
+  - PlayerListener
+  - ServerListener
+- Config manager
+- Game player
+  - many methods
+- Item utils
+- Game manager
+- Spectate mode
+- Logger system
+
 
 ### How to use GamePlayer:
 ``` shell
