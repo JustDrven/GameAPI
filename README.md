@@ -34,16 +34,16 @@ gamePlayer.setSpectator();  // It will set the spectator to the player.
 ```
 <br>
 
-### How to use Logger:
+### How to use API for Gradle:
 ``` shell
-    // INFO message.
-    Logger.log(Logger.LogType.INFO, "<message>");
-    
-    // WARNING message.
-    Logger.log(Logger.LogType.WARNING, "<message>");
+ 
+repositories {
+    maven { url 'https://jitpack.io' }
+}
 
-    // ERROR message.
-    Logger.log(Logger.LogType.ERROR, "<message>");
+dependencies {
+    implementation 'com.github.JustDrven:GameAPI:v2.0'
+}
   
 ```
 
