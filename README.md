@@ -16,7 +16,6 @@ if (gamePlayer.isOnline()) {  // Returns if is online.
 }   
 
 gamePlayer.setSpectator();  // It will set the spectator to the player.
-  
 ```
 <br>
 
@@ -30,13 +29,11 @@ gamePlayer.setSpectator();  // It will set the spectator to the player.
 
     // ERROR message.
     Logger.log(Logger.LogType.ERROR, "<message>");
-  
 ```
 <br>
 
 ### How to use API for Gradle:
 ``` shell
- 
 repositories {
     maven { url 'https://jitpack.io' }
 }
@@ -44,7 +41,6 @@ repositories {
 dependencies {
     implementation 'com.github.JustDrven:GameAPI:v2.0'
 }
-  
 ```
 
 <hr>
