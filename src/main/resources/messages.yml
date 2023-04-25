@@ -1,0 +1,4 @@
+messages:
+  game:
+    startmessage: "%prefix% &7Game start in &a%time%&7 second(s)!"
+    endmessage: "%prefix% &7Game over in &a%time%&7 second(s)!"

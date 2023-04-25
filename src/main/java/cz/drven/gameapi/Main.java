@@ -13,6 +13,7 @@ public final class Main extends JavaPlugin {
 
     public static final String PREFIX = Colors.format("&8[&cServer&8] &r");
     private static ConfigManager config;
+    private static ConfigManager message;
 
     @Override
     public void onEnable() {
@@ -22,6 +23,10 @@ public final class Main extends JavaPlugin {
             config = new ConfigManager(this, "mysql.yml");
 
             config.getConfig().save("mysql.yml");
+
+            message = new ConfigManager(this, "messages.yml");
+
+            message.getConfig().save("messages.yml");
 
             Logger.log(Logger.LogType.INFO, "&aConfig was been created!");
 
