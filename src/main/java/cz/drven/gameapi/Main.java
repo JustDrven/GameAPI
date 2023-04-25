@@ -18,14 +18,13 @@ public final class Main extends JavaPlugin {
     @Override
     public void onEnable() {
         try {
+            // config and managers
             saveDefaultConfig();
 
             config = new ConfigManager(this, "mysql.yml");
-
             config.getConfig().save("mysql.yml");
 
             message = new ConfigManager(this, "messages.yml");
-
             message.getConfig().save("messages.yml");
 
             Logger.log(Logger.LogType.INFO, "&aConfig was been created!");
@@ -43,6 +42,7 @@ public final class Main extends JavaPlugin {
 
             Logger.log(Logger.LogType.INFO, "&aAPI was been enabled!");
         } catch (Exception ex) {
+            // error message
             Logger.log(Logger.LogType.ERROR, "Error with API");
         }
 
